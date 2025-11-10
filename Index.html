@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detalles Goma Eva</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<!-- Encabezado -->
+    <header>
+        <h1>Detalles Goma Eva</h1>
+        <nav>
+            <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+<!-- Sección de inicio -->
+    <section id="inicio" class="section">
+        <h2>¡Sorprende a quien más quieres!</h2>
+        <p>En <strong>Detalles Goma Eva</strong> creamos desayunos sorpresa, arreglos personalizados y todo lo que necesites para expresar tus sentimientos con amor y creatividad.</p>
+        <a href="#galeria" class="btn">Ver productos</a>
+    </section>
+
+<!-- Galería -->
+    <section id="galeria" class="section">
+        <h2>Galería de Productos</h2>
+        <div id="galeria-container" class="galeria-container">
+    <!-- Productos se mostrarán aquí -->
+        </div>
+
+        <div class="formulario-producto">
+            <h3>Sube tu producto</h3>
+                <form id="productoForm">
+                    <input type="file" id="imagenProducto" accept="image/*" required>
+                    <input type="text" id="nombreProducto" placeholder="Nombre del producto" required>
+                    <textarea id="descripcionProducto" placeholder="Descripción del producto" required></textarea>
+                    <button type="submit">Agregar a galería</button>
+                </form>
+        </div>
+    </section>
+
+<!-- Sobre Nosotros -->
+    <section id="nosotros" class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una tienda artesanal dedicada a llenar de alegría los momentos más importantes de la vida. Desde desayunos sorpresa hasta decoraciones personalizadas, cada detalle está hecho con amor, dedicación y creatividad. 💕</p>
+    </section>
+
+<!-- Contacto (Botón de WhatsApp) -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¿Quieres hacer un pedido o cotización? Escríbenos directamente por WhatsApp y te atenderemos con gusto.</p>
+        <a href="https://wa.me/573001234567?text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20los%20productos%20de%20Detalles%20Goma%20Eva." 
+            class="btn-whatsapp" target="_blank">
+                💬 Chatear por WhatsApp
+        </a>
+    </section>
+
+<!-- Pie de página -->
+    <footer>
+        <p>© 2025 Detalles Goma Eva | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
