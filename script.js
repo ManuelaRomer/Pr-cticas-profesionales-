@@ -41,3 +41,4 @@ form.addEventListener("submit", (e) => {
     reader.readAsDataURL(file);
     form.reset();
 });
+

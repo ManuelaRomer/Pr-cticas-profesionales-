@@ -36,7 +36,7 @@ nav {
 .menu li a {
     color: white;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .menu li a:hover {
@@ -159,6 +159,7 @@ footer {
         display: none;
         padding: 20px 0;
     }
+}
 
     .menu.active {
         display: flex;
@@ -171,7 +172,7 @@ footer {
     .producto {
         width: 90%;
     }
-}
+
 
 @media (max-width: 480px) {
     h2 {
